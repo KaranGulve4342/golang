@@ -39,3 +39,4 @@ func serveHome(w http.ResponseWriter, r *http.Request) {
 // go mod edit -go 1.16: Sets the Go version in the go.mod file to 1.16.
 // go mod edit -go 1.23.3: Sets the Go version in the go.mod file to 1.23.3.
 // go mod vendor: Creates a vendor directory with all dependencies.
+// go mod download: Downloads the dependencies of the module.
